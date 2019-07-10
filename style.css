@@ -1035,10 +1035,18 @@ section {
     border-bottom-left-radius: 65px;
 }
 
+.proposal-mintos .animation-torso {
+    background: #0F1822;
+}
+
 .animation-circle {
     border-radius: 100%;
     background: #04AEEA;
     position: absolute;
+}
+
+.proposal-mintos .animation-circle {
+    background: #21CFCB;
 }
 
 .animation-circle-lg {
@@ -1097,7 +1105,7 @@ section {
     }
 }
 
-.animation-circle-white {
+.animation-circle-white, .proposal-mintos .animation-circle-white {
     background: #fff;
 }
 
